@@ -1,0 +1,347 @@
+@font-face {
+   font-family:'HelveticaNeue';
+    src: url('../fonts/HelveticaNeue.ttf');
+}
+@font-face {
+   font-family:'SF-Pro-Display-Light';
+    src: url('../fonts/SF-Pro-Display-Light.otf');
+}
+@font-face {
+   font-family:'SF-Pro-Display-Thin';
+    src: url('../fonts/SF-Pro-Display-Thin.otf');
+}
+/*Clase a usar en los formularios con errores*/
+.error{
+    color:red;
+    font-size: 12px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/*------HEADER------*/
+body{
+    font-family: 'SF-Pro-Display-Light','arial','san-serif';
+    min-height: 100vh;
+    letter-spacing: .01rem;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+}
+
+/*------DESIGN------*/
+.ittitle{
+    font-size: 3em;
+}
+.ibtn-navegacion{
+    font-size: 1em;
+    color: #3498db;
+    
+}
+
+.boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:1px solid #3498db ;
+    border-radius: 50px;
+    width: 400px;
+
+} 
+
+
+.isection{
+    display: flex;
+    flex-direction: column;
+    /*background-color: white;*/
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+.icol-md-8{
+    border-radius: 20px;
+    border: 1px solid #95989A;
+    display: grid;
+    grid-template-rows: 1fr;
+    box-shadow: 2px 2px 5px #999;
+   
+}
+.icard-header{
+    /*background-color: white;*/
+    padding: 4em 5em;
+    border-radius: 25px;
+    /*border: 1px solid #95989A;*/
+}
+
+
+.icard{
+    /*background-color: white;*/
+    /*border: 1px solid #95989A;*/
+}
+
+
+.titulo-login{
+    font-size: 1.1em;
+    font-family:'SF-Pro-Display-Thin','san-serif';
+}
+
+.titulo-i{
+    color: #3498db;
+}
+
+.description-login-text{
+    font-size: 1em;
+}
+
+.icard-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2em;
+    
+}
+
+.boton-login-container:hover {
+   cursor:pointer;
+}
+
+
+.container-boton-login{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.ibtn-primary{
+
+    color: white;
+    width: 200px;
+    height: 25px;
+    border-radius: 25px;
+    border: none;
+    background-color: #3498db;
+    font-size: 1em;
+
+}
+
+.ibtn-primary:hover{
+cursor:pointer;
+}
+
+.text-input-login-data{
+    color: #3498db;
+    font-size: 12px;
+    font-family:'SF-Pro-Display-Thin','san-serif';
+}
+
+
+
+
+
+
+/*----END-DESIGN----*/
+
+.fondo_imagen{
+    /*background-color: red;*/
+    background: url(img/fondo.jpg);
+}
+
+
+
+/*-------------TRAIDO..-------------*/
+
+
+
+/*-------------FIN TRAIDO..-------------*/
+.btn-navegacion{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498DB;
+    border: 1px solid #fff;
+    border-radius: 45px;
+    width: 300px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    /*margin: 10px 0;*/
+    cursor: pointer;
+    outline: none;
+}
+.header, .footer{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    font-size: 1.2em;
+    color: #95989A;
+}
+.header{
+        border-bottom: 1px solid #95989A;
+}
+.titulo, .usuario, .author{
+    display: inline-block;
+}
+/*------HEADER-LINKS------*/
+.header-links{
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+}
+.header-links a{
+    text-decoration: none;
+    padding: 0px 10px;
+}
+.active{
+    color: #3498db;
+}
+/*------FOOTER------*/
+.footer{
+    font-size: .8em;
+    text-align: center;
+    /*border-top: 1px solid #95989A;*/
+}
+/*-------BOTONES-------*/
+
+/*----Visualizacion----*/
+
+
+
+/*------------------*/
+
+/*-------SECCION MENU-------*/
+.menu{
+    min-height: 100vh;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.menu .imagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.info-menu{
+    display: flex;
+    font-family: 'SF-Pro-Display-Thin';
+    font-weight: none;
+    flex-direction: column;
+    align-items: center;
+}
+.info-menu hr{
+    width: 80%;
+}
+.info-menu h1{
+    font-size: 2em;
+    padding: 1em;
+}
+.info-menu h2{
+    font-size: .9em;
+    color: #95989A;
+    padding: 2em 0;
+}
+/*---NUEVO REGISTRO---*/
+.nuevo-registro{
+    display: grid;
+    min-height: 100%;
+    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 100%;
+}
+.formulario{
+    display: grid;
+    min-height: 100%;
+    /*grid-template-rows: 3fr 1fr;*/
+    grid-template-columns: 100%;
+}
+.formulario .input{
+    display: grid;
+    min-height: 100%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 100%;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+}
+.input-dato{
+    display: flex;
+    flex-direction: column;
+
+    /*padding: 0 40px;*/
+    /*width: 40%;*/
+}
+.input-dato input{
+    border: none;
+    border-bottom: 1px solid #3498DB;
+    padding: 10px 0;
+    font-size: 1em;
+    outline: none;
+}
+.input-dato label .label{
+    color: #3498DB;
+}
+
+.ckecbox-input
+{
+    padding: 20px 0;
+}
+
+
+/*---SECCION MENU REGISTRO---*/
+.section-registro{
+    display: grid;
+    min-height: 100%;
+    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 100%;
+}
+.menu-registro{
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+}
+/*---SECTION LOGIN---*/
+.login-form{
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /*width: 40%;*/
+}
+.description-login{
+    padding: 20px 0px;
+    padding-bottom: 40px;
+    text-align: center;
+    display: grid;
+    justify-self: center;
+}
+.form-registro{
+    padding: none;
+}
+.login-border{
+    border-radius: 25px;
+    padding: 20px;
+    border: 1px solid #aaa;
+}
+.description-login hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ededed;
+}
+/*.login-form .btn-navegacion{
+    margin: 40px 0;
+}*/
