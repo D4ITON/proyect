@@ -35,10 +35,6 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
-     'firebase' => [
-        'database_url' => env('FB_DATABASE', 'https://prueba-laravel1.firebaseio.com/
-/'),
-        'secret' => env('FB_DATABASE_KEY', 'zE4bnxzOZ6zuMBzn6m2YAMPcd86KQq4MKJxfRvVW'),
-    ],
+     
 
 ];
