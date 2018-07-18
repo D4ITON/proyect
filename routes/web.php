@@ -22,7 +22,7 @@ Route::get('/', function () {
 });
 
 
-Route::get('/phpfirebase_sdk','FirebaseController@index');
+// Route::get('/phpfirebase_sdk','FirebaseController@index');
 
 // Route::resource('asistencias','AsistenciasController');
 Route::get('asistencias',['as' =>'asistencias.index', 'uses' => 'AsistenciasController@index']);
