@@ -30,23 +30,26 @@ class AsistenciasController extends Controller
 
         $users = User::all();
         $clasestodo = Clase::all()->where('id', $curso_id);
-        // return $clasestodo;
-        // foreach ($clasestodo as $clase) {
-        //     echo $clase->tomo_asistencia;
-        // }
+        
 
+        // return $clasestodo->tomo_asistencia;
+        $cen = ($clasestodo->pluck('tomo_asistencia')->first());
+        $tomo_asistencia = ($cen == '1') ? '1' : '0';
+        
 
 
 
         $nombre_curso = Curso::all()->where('id', $clase_id)->pluck('nombre')->implode(' ');
         $nombre_clase = Clase::all()->where('id', $curso_id)->pluck('tema')->implode(' ');
-        return view('asistencias.create',compact('users','clase_id','nombre_clase','nombre_curso','curso_id','clasestodo'));
+        return view('asistencias.create',compact('users','clase_id','nombre_clase','nombre_curso','curso_id','clasestodo','tomo_asistencia'));
 
     }
 
     public function store(Request $request, $clase_id, $curso_id)
     {
          
+
+         // return $request;
 
         DB::table('clases')
         ->where('id', '=', $clase_id)
@@ -155,11 +158,13 @@ class AsistenciasController extends Controller
     public function storeclases(Request $request, $id)
     {
         //Campos:
-        // id, curso_id, tema, timestamps
+        // return $request;
+        // id, curso_id, tema, timestamps, tomo_asistencia
         $curso_id = (int) $id;
         $clase = new Clase(array(
             'curso_id' => $curso_id,
             'tema' => $request->get('tema'),
+            'tomo_asistencia' => $request->get('tomo_asistencia'),
         ));
         $clase->save();
         return redirect()->route('asistencias.clases',$id);

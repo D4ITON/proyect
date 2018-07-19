@@ -42,15 +42,15 @@
 	</tbody>
 	</table>
 
-@if (session()->has('regresar'))
+@if (session()->has('regresar') or $tomo_asistencia == '1')
 		<br>
-		<input class="btn btn-primary btn-sm" type="submit" value="guardar"  disabled="">
+		{{-- <input class="btn btn-primary btn-sm" type="submit" value="guardar"  disabled=""> --}}
 		{{-- <input type="hidden" name="guardar" value="1"> --}}
-		<a class="btn btn-primary btn-sm" href="{{ route('asistencias.clases',$clase_id) }}">{{ session('regresar') }}</a>
+		<a class="btn btn-primary btn-sm" href="{{ route('asistencias.clases',$clase_id) }}">Regresar</a>
 @else
 	
 	<input class="btn btn-primary btn-sm" type="submit" name="guardar" value="guardar">
-	<input type="checkbox"  name="guardar" value="1" checked style="display: none">
+	<input type="hidden"  name="guardar" value="1">
 	
 @endif
 </form>

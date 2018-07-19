@@ -1,0 +1,43 @@
+/* --codigo	Apellidos	Nombres	email	contraseña	roles 
+INSERT INTO `users` (`id`, `name`, `last_name`, `codigo`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
+	(1, 'Dalthon Mamani Hualpa', NULL, '2015-119063', 'daitonmh100@gmail.com', '$2y$10$sZ5xybRVwzN0DqW4NnVKv.1i43guphH.aCHuUMdqqFCXwF0MJ/BOu', NULL, '2018-07-19 04:19:34', '2018-07-19 04:19:34')
+
+*/
+
+
+
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (2,'2010-35559','Herencia Vicente',	'Juan Victor',	'juan@herencia.com'	,'2010-35559',	NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (3,'2012-36181','Morales Caballero',	'Alvaro Anderson',	'alvaro@morales.com',	'2012-36181',	NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (4,'2013-39059','Catari Paccoricuna',	'Walter Luis',	'walter@catari.com',	'2013-39059',	NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (5,'2013-39073','Cama Chura',	'Juan Carlos',	'juan@cama.com'	'2013-39073',	NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (6,'2013-39074','Ccalli Ccalli',	'Jesús Angel',	'jesús@ccalli.com',	'2013-39074',	NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (7,'2013-39078','Neyra Melchor',	'Luis Antonio',	'luis@neyra.com',	'2013-39078',	NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (8,'2013-39092','Ordoño Musaja',	'Kilmer Romario',	'kilmer@ordoño.com',	'2013-39092',	NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (9,'2013-39107','Pacci Vargas',	'Roosselvet',	'roosselvet@pacci.com',	'2013-39107',	NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (10,'2014-119001','Linares Rojas',	'Catherine Jasmin',	'catherine@linares.com'	,'2014-119001'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (11,'2014-119025','Velázquez Curi',	'Alejandro Ruben',	'alejandro@velázquez.com'	,'2014-119025'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (12,'2014-119027','Turpo Luque',	'Alexander Emanuel',	'alexander@turpo.com'	,'2014-119027'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (13,'2014-119043','Quinto Apaza',	'Yulisa',	'yulisa@quinto.com'	,'2014-119043'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (14,'2014-119064','Estrada Cruz',	'Diego Alexander',	'diego@estrada.com'	,'2014-119064'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (15,'2015-119001','Ramirez Rejas',	'Ruth de Jesús',	'ruth@ramirez.com'	,'2015-119001'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (16,'2015-119003','Alvarado Achata',	'Jhon',	'jhon@alvarado.com'	,'2015-119003'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (17,'2015-119005','Sintecala Mulluni',	'Jakelyn',	'jakelyn@sintecala.com'	,'2015-119005'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (18,'2015-119011','Laura Paxi',	'Rosa Angela',	'rosa@laura.com'	,'2015-119011'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (19,'2015-119013','Condori Cabrera',	'Diego Armando',	'diego@condori.com'	,'2015-119013'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (20,'2015-119014','Pongo Ccama', '	Richard Cecilio',	'richard@pongo.com'	,'2015-119014'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (21,'2015-119023','Sanca Padilla',	'Lizeth Diana',	'lizeth@sanca.com'	,'2015-119023'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (22,'2015-119025','Medina Cussi',	'Eduardo',	'eduardo@medina.com'	,'2015-119025'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (23,'2015-119028','Pacco Concori',	'Elvis Ruben',	'elvis@pacco.com'	,'2015-119028'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (24,'2015-119029','Condori Mamani',	'Eduardo Francisco',	'eduardo@condori.com'	,'2015-119029'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (25,'2015-119030','Condori Catunta',	'Alexis Joher',	'alexis@condori.com'	,'2015-119030'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (26,'2015-119031','Zevallos Gomez',	'María Fernanda',	'maría@zevallos.com'	,'2015-119031'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (27,'2015-119032','Mendoza Chino',	'Jhon Wilber',	'jhon@mendoza.com'	,'2015-119032'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (28,'2015-119033','Condori Huisa',	'Luis Angel',	'luis@condori.com'	,'2015-119033'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (29,'2015-119034','Mamani Cariapaza',	'Josue Aldair',	'josue@mamani.com'	,'2015-119034'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (30,'2015-119037','Huaynapata Aguilar',	'Walter Daniel',	'walter@huaynapata.com'	,'2015-119037'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (31,'2015-119038','Ramos Valdéz',	'Leandro André',	'leandro@ramos.com'	,'2015-119038'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (32,'2015-119043','Ramos Huanca',	'Fressia Emmy',	'fressia@ramos.com'	,'2015-119043'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (33,'2015-119046','Puma Marca',	'Williams Jack',	'williams@puma.com'	,'2015-119046'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (34,'2015-119054','Flores Yance',	'Jesús Joseph',	'jesús@flores.com'	,'2015-119054'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (35,'2015-119063','Mamani Hualpa',	'Dalthon',	'dalthon@mamani.com'	,'2015-119063'	,NULL, NULL, NULL);
+INSERT INTO `users` (`id`, `codigo`, `name`, `last_name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES (36,'2015-119065','Frisancho Ponce',	'Alberth Ronaldo',	'alberth@frisancho.com'	,'2015-119065'	,NULL, NULL, NULL);

@@ -24,6 +24,7 @@ class CreateUserRequest extends FormRequest
     public function rules()
     {
         return [
+            'codigo' => 'required',
             'name' => 'required',
             'email' => 'email|required|unique:users,email',
             'password' => 'required|confirmed',

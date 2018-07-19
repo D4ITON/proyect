@@ -3,10 +3,22 @@
 <div class="form-group">
 	
 	
+	<p><label for="codigo">
+		Codigo Universitario
+		<input class="form-control" type="text" name="codigo" value="{{ $user->codigo or old('codigo') }}">
+		{{ $errors->first('codigo') }}
+	</label></p>
+
 	<p><label for="name">
 		Nombre
 		<input class="form-control" type="text" name="name" value="{{ $user->name or old('name') }}">
 		{{ $errors->first('name') }}
+	</label></p>
+
+	<p><label for="last_name">
+		Apellidos
+		<input class="form-control" type="text" name="last_name" value="{{ $user->last_name or old('last_name') }}">
+		{{ $errors->first('last_name') }}
 	</label></p>
 
 	<p><label for="email">

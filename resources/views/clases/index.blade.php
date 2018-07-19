@@ -30,7 +30,7 @@
 					<a class="btn btn-primary btn-sm" href="{{ route('asistencias.create',['clase_id'=>$clase->id, 'curso_id'=>$curso_id]) }}">Tomar Asistencia</a>
 					@endif
 					<a class="btn btn-success btn-sm" href="{{ route('asistencias.show',['clase_id'=>$clase->id, 'curso_id'=>$curso_id]) }}">Ver Asistencia</a>
-					@if (auth()->user()->hasRoles(['admin']))
+					@if (auth()->user()->hasRoles(['admin','delegado']))
 						<form style="display: inline" method="POST" action="{{ route('asistencias.destroy',$clase->id) }}">
 								{!! csrf_field() !!}
 								{!! method_field('DELETE') !!}

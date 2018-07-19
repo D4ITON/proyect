@@ -1,13 +1,14 @@
 @extends('layouts.app')
 
 @section('content')
-<h1>Usuarios</h1>
-<a class="btn btn-primary pull-right" href="{{ route('usuarios.create') }}">Crear nuevo usuario</a>
+<h1>Estudiantes</h1>
+<a class="btn btn-primary pull-right" href="{{ route('usuarios.create') }}">Crear nuevo estudiante</a>
 <table class="table table-responsive-sm">
 	<thead>
 		<tr>
-			<th>ID</th>
-			<th>Nombre</th>
+			<th>Codigo</th>
+			<th>Nombres</th>
+			<th>Apellidos</th>
 			<th>Email</th>
 			<th>Rol</th>
 			<th>Acciones</th>
@@ -16,8 +17,9 @@
 	<tbody>
 		@foreach ($users as $user)
 			<tr>
-				<td>{{ $user->id }}</td>
+				<td>{{ $user->codigo }}</td>
 				<td>{{ $user->name }}</td>
+				<td>{{ $user->last_name }}</td>
 				<td>{{ $user->email }}</td>
 				<td>
 					{{ $user->roles->pluck('display_name')->implode(' - ') }}

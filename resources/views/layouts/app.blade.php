@@ -62,7 +62,7 @@
                         @else
                             @if (auth()->user()->isAdmin())
                                 <li>
-                                    <a class="nav-link" href="{{ route('usuarios.index') }}">usuarios</a>
+                                    <a class="nav-link" href="{{ route('usuarios.index') }}">Estudiantes</a>
                                 </li>
                             @endif
                         <li>
